@@ -48,13 +48,13 @@ To communicate successfully with your Siemens S7 PLC, make sure the following se
   - Open your PLC device.
   - Navigate to **"Protection & Security"**.
   - Enable **"Permit access with PUT/GET communication from remote partner"**.
-    ![PUT/GET enabled](./img/s1.png)
+    ![PUT/GET enabled](img/s1.png)
 
 - **Disable optimized block access** for any Data Blocks you plan to access.  
   In TIA Portal:  
   - Open the Data Block properties.
   - Uncheck **"Optimized block access"** under the **"Attributes"** section.
-    ![Optimized Block Access disabled](./img/s2.png)
+    ![Optimized Block Access disabled](img/s2.png)
 
 Failure to apply these settings will result in connection errors or failed read/write operations.
 
