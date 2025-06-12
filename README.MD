@@ -54,7 +54,7 @@ To communicate successfully with your Siemens S7 PLC, make sure the following se
   In TIA Portal:  
   - Open the Data Block properties.
   - Uncheck **"Optimized block access"** under the **"Attributes"** section.
-    ![Optimized Block Access disabled](https://github.com/sesenlik/node-snap7js/blob/main/img/s1.PNG)
+    ![Optimized Block Access disabled](https://github.com/sesenlik/node-snap7js/blob/main/img/s2.PNG)
 
 Failure to apply these settings will result in connection errors or failed read/write operations.
 
