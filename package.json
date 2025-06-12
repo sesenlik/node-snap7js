@@ -1,8 +1,12 @@
 {
     "name": "node-snap7js",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A pure JavaScript implementation of Snap7 client for communicating with Siemens S7 PLCs. This node is a port of Sharp7, a Siemens S7 protocol driver, originally based on Snap7.",
     "main": "lib/snap7js.js",
+    "files": [
+        "lib/",
+        "package.json"
+    ],
     "keywords": [
         "snap7",
         "sharp7",
